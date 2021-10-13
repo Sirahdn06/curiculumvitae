@@ -1,0 +1,177 @@
+.banner {
+    background: url("image/wallpaperbetter.jpg") 
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: floralwhite;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: rgb(0, 0, 0);
+    background-image: url("../image/WhatsApp\ Image\ 2021-05-25\ at\ 21.22.43\ \(5\).jpeg");
+    background-size: cover;
+}
+.wrapper_profile{
+    background-color: rgba(55, 185, 245, 0.7);
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+}
+.photo_name{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 0 25%;
+    background-color: rgb(182, 223, 223);
+    border-radius: 10px;
+}
+.photo_name img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    float: inline-start ;
+}
+.photo_name h1{
+    padding: 40px 50px;
+    float: left;
+}
+.detail_profile{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.detail_profile h3{
+    margin-block-end: 2px;
+}
+.detail_profile p{
+    margin-block-start: 2px;
+}
+.educatios{
+    width: 100%;
+    background-color: rgb(34, 145, 108);
+    flex-direction: 5px;
+    float: left;
+}
+
+.flex_box{
+    display: flex;
+}
+.flex_box li{
+    flex: auto;
+    list-style:none;
+    padding: 30px;
+}
+.flex_box img{
+    width: 150px;
+    padding: 10%;
+    border-radius: 100%;
+    background-color: rgb(180, 201, 201);
+}
+.flex_box h4{
+    text-align: center;
+}
+.skill_languages{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 5px;
+    float: left;
+}
+.skills{
+    float: left;
+    width: 50%;
+    border-right: darkcyan;
+    border-style: none solid none none;
+    padding: 20px;
+}
+.languages{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.skills h3{
+    float: left;
+    width: 100%;
+    text-align: right;
+    padding: 20px 0 20px 20px;
+    margin: 0;
+}
+.skills{
+    float: left;
+}
+.skills_desc{
+    float: right;
+    width: 70%;
+}
+.skills_desc h4{
+    float: right;
+    text-align: right;
+    margin: 10px;
+}
+.skills_desc p{
+    float: right;
+    text-align: right;
+}
+.languages h3{
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0 30px 20px; 
+    margin: 0px;
+}
+.languages h4{
+   float: left;
+   text-align: left;
+   margin: 10px;
+   width: 100%;
+}
+.languages p{
+    float: left;
+    text-align: left;
+    margin: 10px;
+    width: 100%;
+}
+.organizations{
+    width: 100%;
+    background-color: blue;
+    margin: 0;
+    float: left;
+    padding-bottom: 20px;
+}
+.container{
+    margin: 20px auto;
+    width: 100%;
+}
+.org_left{
+    float: left;
+    width: 100%;
+    border-color: cornflowerblue;
+    border-style: solid none solid solid;
+    padding: 10px;
+    text-align: left;
+}
+.org_right{
+    float: left;
+    width: 100%;
+    border-color: cornflowerblue;
+    border-style: none solid none none;
+    padding: 10px;
+    text-align: right;
+}
+.motto{
+    width: 100%;
+    background-color: blue;
+    margin-top: 5px;
+    float: left;
+    padding-bottom: 20px;
+}
+.motto p{
+    text-align: center; 
+}
